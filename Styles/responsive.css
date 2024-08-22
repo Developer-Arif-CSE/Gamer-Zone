@@ -1,0 +1,118 @@
+
+
+
+
+
+
+
+@media  screen and (max-width:400px) {
+
+    /* nav style starts here */
+    .nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .right-nav{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        
+    }
+    .right-nav a{
+        margin-bottom: 20px;
+
+    }
+    /* nav style ends here */
+    
+
+    /* <!-- goat section starts here --> */
+
+    .goat
+   {
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+   }  
+   .right-goat img{
+    margin-top: 200px;
+    width: 100%;
+    height: 100%;
+   }
+
+    /* <!-- goat section starts here --> */
+
+    .gamer{
+        display: flex;
+        flex-direction:column;
+    }
+    .gamer-img{
+        width: 100%;
+        height: 100%;
+    }
+    .gamer-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .gamer-text p{
+        padding-left: px;
+        margin-top: 0%;
+      
+    }
+    .know1{
+        margin-left: 200px;
+      }
+      .our{
+      padding-right: 320px;
+      }
+      .gamer-text .unless{
+          font-size: 30px;
+          font-weight: 900;
+          margin-top: 30px;
+      }
+
+      .funny-videos{
+      margin-top: 900px;
+      }
+      .funny-cards{
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(1fr);
+      }
+      .cards-items{
+        margin-bottom: 60px;
+      }
+      .download{
+        display: flex;
+        flex-direction: column;
+        margin-top:1100px;
+        align-items: center;
+
+      }
+      .download-txt{
+        margin-top: 500px;
+      }
+      .download-image{
+        width: 100%;
+    }
+      
+    .play-games{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1000px;
+        align-items: center;
+    }
+    .play-games-image-1 img{
+        width: 100%;
+    }
+
+    .play-games-image-2 img{
+        width: 350px;
+        height: 400px;
+        position: absolute;
+        right: -160px;
+        top: 400px;
+    }
+}
